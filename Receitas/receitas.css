@@ -1,0 +1,165 @@
+body {
+    background: rgb(138,66,7);
+    background: linear-gradient(0deg, rgba(138,66,7,1) 35%, rgba(255,162,0,1) 100%);
+}
+
+.text {
+    width: 80%;
+    margin:  0 auto;
+}
+
+.text h1 {
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+img {
+    float: right;
+    position:relative;
+    right: 10%;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.ingredientes {
+    width: 35%;
+    float:left;
+    position: relative;
+    left: 10%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.passo-instrucoes h4 {
+    color: #f9f9f9;
+    font-size: 18px;
+}
+
+.ingredientes ul li {
+    color: #131212;
+    font-size: 18px;
+}
+
+.ingredientes .title-ingredientes {
+    color: #f9f9f9;
+    font-size: 22px;
+    font-family: Georgia ;
+}
+
+.ingredientes .instrucoes {
+    width: 100%;
+}
+
+.text-2 {
+    float: right;
+    position: relative;
+    right:10% ;
+    
+    width: 40%;
+}
+
+.text-2 h1 {
+    color: aliceblue;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text-2-continuacao {
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+span {
+    color: #f9f9f9;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+@media (max-width: 768px) {
+
+    .text {
+        width: 80%;
+        margin:  0 auto;
+    }
+    
+    
+    
+    .text p {
+        text-align: left;
+    }
+    
+    img {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        float: none;
+        width: 80%;
+        position:static;
+        right: 0;
+    }
+    
+    .ingredientes {
+        width: 70%;
+        float:none;
+        position: static;
+        margin: 0 auto;
+        left: 0;
+        margin-top: 40px;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .passo-instrucoes h4 {
+        font-size: 22px;
+    }
+    
+    .ingredientes ul li {
+        font-size: 20px;
+    }
+    
+    
+    .ingredientes .instrucoes {
+        width: 100%;
+    }
+    
+    .text-2 {
+        float:none;
+        position: static;
+        right:0 ;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .text-2 h1 {
+        text-align: center;
+    }
+    
+    
+    .text-2-continuacao {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .text-2-continuacao p {
+        font-size: 22px;
+    }
+
+}
